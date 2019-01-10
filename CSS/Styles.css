@@ -1,0 +1,128 @@
+body{
+	background-color: #cabdef;
+}
+
+h1{
+	font-size: 4vw;
+	text-align:center;
+	letter-spacing:2px;
+	text-shadow:1px 1.2px #fab111;
+}
+
+h2{
+	font-size: 2.25vw;
+}
+
+h3{
+	font-size: 2vw;
+}
+
+h4{
+	font-size: 1.5vw;
+}
+
+p{
+	font-size: 1.35vw;
+	word-spacing: 0.5px;
+}
+
+a{
+	font-size: 1.35vw;
+	word-spacing: 0.5px;
+}
+video{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: auto;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MenuButton{
+	background-color: #564737;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 25px;
+}
+.MenuButton:hover, .MenuButton:focus{
+	background-color: #fabced;
+}
+.Menu{
+	max-height: 600px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	min-height: 400px;
+	min-width: 250px;
+	position: relative;
+	/*display: inline-block;*/
+	top: 0;
+	float: left;
+	position: fixed;
+}
+.MenuContents{
+	display: none;
+	position: absolute;
+	background-color: #abc546;
+	min-width:160px;
+	box-shadow: 0px, 8px, 16px, 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 10px;
+}
+.MenuContents a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.MenuContents a:hover{background-color: #ddd;}
+.show{display:block;}
+.extra {
+	float:left;
+	overflow:hidden;
+}
+
+@media only screen and (max-width: 500px) {
+	body {
+		background-color: lightblue;
+	}
+	h1{
+		font-size: 8vw;
+	}
+	h2{
+		font-size: 4.5vw;
+	}
+	h3{
+		font-size: 4vw;
+	}
+	h4{
+		font-size: 3vw;
+	}
+	p{
+		font-size: 2.7vw;
+	}
+	a{
+		font-size: 2.7vw;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	p {
+		font-size: 2vw;
+	}
+	a {
+		font-size: 2vw;
+	}
+	h4{
+		font-size: 2vw;
+	}
+}
